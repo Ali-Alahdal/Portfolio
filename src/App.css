@@ -1,0 +1,51 @@
+
+#root , body {
+  width: 100%;
+  height: 100vh;
+  background-color: #080808;
+  color:var(--textColor);
+
+}
+
+
+/* For Menu Items */
+.li-hover.active {
+  border-bottom:  #00e9d8 3px solid ;
+   text-decoration-line:  none;
+  text-decoration: none;
+}
+.li-hover:hover {
+  border-bottom:  #00e9d8 3px solid ;
+   text-decoration-line:  none;
+  text-decoration: none;
+}
+.li-hover{
+  color : var(--textColor);
+  text-decoration: none;
+}
+
+
+/* My name with type animation */
+.typing{
+  color: var(--shinyColor);
+  white-space: nowrap;
+  
+  animation: type steps(17) 3s infinite  ;
+  border-right: white 6px solid;
+  
+}
+
+@keyframes type {
+
+  0%{
+    width: 200px;
+
+  }
+  50%{
+      width: 0px;
+  }
+  100%{
+      width:200px;
+      
+  }
+}
