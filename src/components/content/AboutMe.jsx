@@ -2,42 +2,43 @@ import { useEffect, useState } from "react";
 import MyFace from "../../assets/MyFace.png";
 
 function AboutMe() {
-    const roles = ["Software Engineer" , "Web Developer" , "React Developer"];
+
+    // Define State for chnage role
+    const roles = ["Software Engineer" , "Front-End Enginner" , "Web Developer"];
     const [currentRoleIndex , setCurrentRoleIndex] = useState(1);
     const [currentRole, setCurrentRole] = useState("Software Engineer");
-    const [animationTime , setAnimationTime ] = useState(1.5);
+    const [animationTime , setAnimationTime ] = useState(2);
 
+
+    // Chnage Roles For Type Animation
     useEffect(()=>{
 
-        
         function ChnagerRole(){
-            if(currentRole === "Software Engineer"){
-                setAnimationTime(1.5);
-            }
-             if(animationTime === 1.5){
-                setAnimationTime(3);
-            }
-
-
+           
             if(currentRoleIndex < roles.length){
                 setCurrentRole(roles[currentRoleIndex]);
                 setCurrentRoleIndex(currentRoleIndex + 1);
             }else{
                 setCurrentRole(roles[0]);
-                setCurrentRoleIndex(0);
+                setCurrentRoleIndex(1);
             }
-           
+            
+            setAnimationTime(4)
         }
+        // Every 3 Secodns change role
         setTimeout(() => {
             ChnagerRole();
         }, animationTime * 1000);
-
-        console.log(currentRole);
         
-    },[currentRoleIndex])
+    },[currentRoleIndex]);
+
+
+    
     return ( 
-        <main className="container-fluid  ps-0 pe-0 d-flex " style={{height:"500px"}}>
-            <div className="w-50 m-auto ms-3 ps-5 pe-5 " >
+        <main className="container-fluid  ps-0 pe-0 d-flex " >
+
+            {/* Section on the left , name , summary about me , my roles  */}
+            <section className="w-50 m-auto ms-3 ps-5 pe-5 " >
                 <div >
                     <h1>Hi,It's Ali 
                         <span style={{color:"var(--shinyColor)"}}> Alahdal  </span>
@@ -58,12 +59,12 @@ function AboutMe() {
                     </p>
                 </div>
          
-            </div>
+            </section>
 
             {/* Image Section */}
-            <div className="w-50 h-75 m-auto text-center ">
+            <section className="w-50 h-75 m-auto text-center ">
                 <img className="h-100 " src={MyFace} style={{borderRadius:"100%",border:"var(--shinyColor) 6px solid"}}/>
-            </div>
+            </section>
         </main> 
     );
 }

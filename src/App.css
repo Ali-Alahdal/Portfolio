@@ -30,9 +30,13 @@
   color: var(--shinyColor);
   white-space: nowrap;
   
-  animation: type steps(17) 3s infinite  ;
+  animation: type steps(20) 4s infinite  ;
   border-right: white 6px solid;
-  
+
+}
+
+main{
+  height: 500px;
 }
 
 @keyframes type {
