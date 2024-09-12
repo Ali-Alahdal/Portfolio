@@ -40,14 +40,14 @@ function AboutMe() {
             {/* Section on the left , name , summary about me , my roles  */}
             <section className="w-50 m-auto ms-3 ps-5 pe-5 " >
                 <div >
-                    <h1>Hi,It's Ali 
-                        <span style={{color:"var(--shinyColor)"}}> Alahdal  </span>
+                    <h1 className="">Hi,It's Ali 
+                        <span style={{color:"var(--shinyColor)",textShadow:" 0px 0px 25px var(--shinyColor)"}}> Alahdal  </span>
                     </h1>
                    
                 </div>
                 <div className="d-flex">
                     <h4 className="me-2">I'm a </h4>
-                    <h4 className="typing overflow-hidden " > {currentRole}  </h4>
+                    <h4 className="typing overflow-hidden"  > {currentRole}  </h4>
     
                 </div>
                 
