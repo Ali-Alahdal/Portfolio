@@ -20,6 +20,7 @@ main{
     position: relative;
     border-top: var(--shinyColor) 15px solid;
     border-bottom: var(--shinyColor) 15px solid;
+    border-radius: 35px;
 }
 
 
@@ -101,9 +102,11 @@ main{
 }
 
 .box h4{
-    margin-bottom: 5px;
+    margin-bottom: 25px;
+    border-bottom: var(--shinyColor) 2px solid;
+   
 }
-.box h5 {
+.box h6 {
     margin-bottom: 20px;
   
 }

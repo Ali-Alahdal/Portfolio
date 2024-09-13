@@ -1,0 +1,11 @@
+.project-box{
+    background: var(--shinyColor);
+    width: 500px;
+    min-height: 230px !important;
+    max-height: 500px !important;
+    height:  auto;
+    max-width: 1050px;
+    border-radius: 25px;
+   
+  
+}

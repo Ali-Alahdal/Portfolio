@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Header() {
     return ( 
-        <header className='container-fluid d-flex justify-content-between pt-2 '>
+        <header className='container d-flex justify-content-between pt-2 '>
 
         {/* My Name with type animation */}
         <div className='w-50 text-center m-auto   ' >
