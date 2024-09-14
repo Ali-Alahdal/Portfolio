@@ -48,9 +48,7 @@
 
 }
 
-main{
-  height: 500px;
-}
+
 
 @keyframes type {
 
@@ -72,3 +70,27 @@ main{
   color: var(--shinyColor);
   text-shadow: 0px 0px 30px var(--shinyColor);
 }
+
+.scale-shine{
+
+  transition: ease-in-out 0.4s;
+}
+.scale-shine:hover{
+  transform: scale(1.02);
+
+  box-shadow: 0px 0px 20px var(--shinyColor);
+}
+.social-media-box div{
+  padding: 2px 10px 7px 10px ;
+  border: 1px var(--shinyColor) solid;
+  color: var(--shinyColor);
+}
+
+
+.social-media-box div:hover{
+  
+  background-color: var(--shinyColor);
+  color: white;
+}
+
+

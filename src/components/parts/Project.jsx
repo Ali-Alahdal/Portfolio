@@ -1,6 +1,6 @@
 function Project(props) {
     return ( 
-        <div className="project-box col  p-5 pb-0 position-relative" >
+        <div className="project-box col  p-5 pb-0 position-relative scale-shine" >
 
             <h5 className="fw-bolder">{props.title}</h5>
             <p className="mb-2"> {props.description} </p>

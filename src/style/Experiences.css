@@ -1,0 +1,15 @@
+.experience-box{
+    border: 3px rgba(255, 255, 255, 0.492) solid ;
+    height: 500px auto;
+  
+    width: auto;
+    max-width: 300px;
+}
+
+img{
+    border: var(--shinyColor) solid 2px;
+    box-shadow: 0 0 25px var(--shinyColor);
+}
+.notes {
+    overflow-x: hidden;
+}

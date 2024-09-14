@@ -19,7 +19,7 @@ function Header() {
 
                 {/* Items */}
                 <li  className='me-3 ' > 
-                    <NavLink to={'/'} className="li-hover pb-1">Home </NavLink>
+                    <NavLink to={'/'} className="li-hover pb-1">About Me </NavLink>
                 </li>
 
                 <li className='me-3 '>

@@ -58,12 +58,31 @@ function AboutMe() {
                    Strong problem-solving and communication skills.
                     </p>
                 </div>
+
+                <div className="row row-cols-auto fs-4 social-media-box gap-3 ms-1  ">
+
+                    <div className="rounded-pill scale-shine">
+                        <i class="bi bi-github  "></i>
+                    </div>
+                  
+                   
+                    <div className="rounded-pill scale-shine">
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                    <div className="rounded-pill scale-shine">
+                        <a class="bi bi-instagram" target="_blank"></a>
+                    </div>
+                    
+                 </div>
          
             </section>
 
+
+          
+
             {/* Image Section */}
-            <section className="w-50 h-75 m-auto text-center ">
-                <img className="h-100 " src={MyFace} style={{borderRadius:"100%",border:"var(--shinyColor) 6px solid"}}/>
+            <section className="w-50 h-75 m-auto text-center  ">
+                <img className="h-100 scale-shine" src={MyFace} style={{borderRadius:"100%",border:"var(--shinyColor) 6px solid"}}/>
             </section>
         </main> 
     );

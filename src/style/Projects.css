@@ -9,3 +9,10 @@
    
   
 }
+
+.project-box:hover{
+    background: white;
+    border: var(--shinyColor) 3px solid;
+   
+  
+}

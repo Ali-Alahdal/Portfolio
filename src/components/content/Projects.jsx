@@ -60,13 +60,18 @@ function Projects() {
                 ]} />
 
                 <Project title={"Portfolio "}
-                    description={"Portfolio that's showcase my skills, experiences, education. it what you see it now " }
+                    description={"Portfolio that's showcase my skills, experiences, education. its what you see it now " }
                     technologies={"ReactJS, Bootstrap, Vite"}
                     sources={[
                         {
                             link : "https://github.com/Ali-Alahdal/Portfolio",
                             icon : "bi bi-github"
                         },
+                        {
+                            link : "/",
+                            icon :"bi bi-globe"
+
+                        }
                        
                 ]} />
                 <Project title={"To Do List  "}
