@@ -1,44 +1,32 @@
 import "../../style/Education.css"
 function Education() {
     return ( 
-        <main  className="container-fluid     d-flex justify-content-center  " >
-
-            <section className=" education-container d-flex justify-content-center align-self-center   ">
-
-                <div className="box text-start w-auto  " >
-                    <h4>
-                        <span className="text-shine">  High School </span> 
-                    
-                       Degree
-                    </h4>
-                    <p className="m-0"> Major : Natural Sciences </p>
-                    <p>Graduation Year : 2020-2021</p>
-                   
-                    <p className="m-0">GPA : 93.25 / 100</p>
-                </div>
-                <div className="box  text-start w-auto  " >
-                    <h4>
-                        <span className="text-shine">Bachelor's </span>  Degree
-                    </h4>
-                    <p className=""> Major : Computer Technology and Information Systems </p>
-                    <p>Expected Graduation : 2025-2026</p>
-                    
-                    <p>GPA : 3.22 / 4.00</p>
-                </div>
-                <div className="box   text-start w-auto   " >
-                    <h4>
-                        <span className="text-shine">Master </span> Degree
-
-                    </h4>
-                    <p>Major : ?? ??</p>
-                    <p>Expected Graduation : ????</p>
-                   
-                    <p>GPA : ?? / ??</p>
-                </div>
-
-            </section>
-          
-        </main>
+        <div class="container py-5 " id="education">
+  <div class="row">
+    <div class="col-md-12 ">
+      <div id="content">
+        <ul class="timeline-1 text-white scale-shine">
+          <li class="event " data-date="2020-2021">
+            <h4 class="mb-3">High School Degree</h4>
+            <p>Major : Natural Scieneces </p>
+            <p>GPA: 93.25 / 100</p>
+          </li>
+          <li class="event" data-date="2025-2026">
+            <h4 class="mb-3 pt-3">Bachelor Degree</h4>
+            <p>Major : Computer Technology and Information Systems </p>
+            <p>GPA: 3.22 / 4.00</p>
+          </li>
+          <li class="event" data-date="???? - ????">
+            <h4 class="mb-3 pt-3">Master Degree</h4>
+            <p>Major : ???????????????????????? </p>
+            <p>GPA: ??????????</p>
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
      );
 }
 

@@ -4,7 +4,7 @@ import Project from "../parts/Project";
 
 function Projects() {
     return (  
-        <main  className="container-fluid d-flex justify-content-center mt-5 x" >
+        <main  className="container-fluid d-flex justify-content-center mt-5 x" id="projects" >
        
             <div className="row row-cols-2 text-black m-auto gap-3 d-flex justify-content-center pb-5 " >
                 
