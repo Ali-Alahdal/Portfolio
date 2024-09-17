@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import MyFace from "../../assets/MyFace.png";
+import MyFace from "../../assets/MyFace.jpeg";
 import Education from "./Education";
 import Experiences from "./Experiences";
 import Projects from "./Projects";
@@ -82,8 +82,8 @@ function AboutMe() {
                     </div>
 
                     <div className="mt-4">
-                        <button className="border-0 scale-shine  text-black me-4  rounded-pill hire-me p-2 ps-3 pe-3">Hire Me</button>
-                        <button className="border-0  scale-shine  rounded-pill contact-me p-2 ps-3 pe-3">Contact Me</button>
+                        <a href="#contactMe" className="border-0 scale-shine  text-black me-4  rounded-pill hire-me p-2 ps-3 pe-3 text-decoration-none" >Hire Me</a>
+                        <a href="#contactMe" className="border-0  scale-shine  rounded-pill contact-me p-2 ps-3 pe-3 text-decoration-none">Contact Me</a>
                     </div>
             
                 </section>
@@ -95,7 +95,12 @@ function AboutMe() {
           
 
 
-          
+            <div className="w-100 text-center mt-5">
+                <h1>My Skills</h1>
+            </div>
+            <Skills />
+
+            
 
             <div className="w-100 text-center mt-5">
                 <h1>Projects</h1>
@@ -114,10 +119,7 @@ function AboutMe() {
             </div>
             <Experiences />
 
-            <div className="w-100 text-center mt-5">
-                <h1>My Skills</h1>
-            </div>
-            <Skills />
+           
 
             <div className="w-100 text-center mt-5 mb-5">
                 <h1 className="mb-3">Reach Me</h1>

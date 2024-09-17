@@ -21,7 +21,10 @@ function Header() {
                 <li  className='me-3 ' > 
                     <a href={"#aboutMe"}  className="li-hover pb-1">About Me </a>
                 </li>
-
+                
+                <li className='me-3'>
+                    <a href={"#skills"}  className="li-hover pb-1"> Skills </a>
+                </li>
                 <li className='me-3 '>
                     <a href={"#projects"}  className="li-hover pb-1">Projects </a>
                 </li>
@@ -33,9 +36,7 @@ function Header() {
                 <li className='me-3 '>
                     <a href={"#experiences"}  className="li-hover pb-1">Experiences </a>
                 </li>
-                <li className='me-3'>
-                    <a href={"#skills"}  className="li-hover pb-1"> Skills </a>
-                </li>
+               
                 <li className='me-3'>
                     <a href={"#contactMe"}  className="li-hover pb-1">Contact Me </a>
                 </li>
